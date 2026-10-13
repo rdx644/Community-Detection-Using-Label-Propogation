@@ -1,0 +1,1870 @@
+{
+  "schema_version": "1.0",
+  "run_id": "3a824b8a-5716-4722-860e-b67c8d7dbae2",
+  "status": "success",
+  "config": {
+    "seed": 42,
+    "weighted": true,
+    "minimum_weight": 0.1,
+    "start_time": null,
+    "end_time": null,
+    "interaction_types": [
+      "reply",
+      "mention",
+      "shared_discussion"
+    ],
+    "subreddits": [],
+    "largest_component_only": false,
+    "stability_seeds": [
+      42,
+      7,
+      21
+    ]
+  },
+  "quality": {
+    "input_rows": 267,
+    "accepted_rows": 267,
+    "rejected_rows": 0,
+    "duplicate_rows": 0,
+    "self_loops": 0,
+    "rejections": []
+  },
+  "summary": {
+    "nodes": 48,
+    "edges": 267,
+    "isolates": 0,
+    "connected_components": 1,
+    "selected_events": 267,
+    "filtered_events": 0,
+    "threshold_removed_edges": 0,
+    "component_removed_nodes": 0,
+    "total_edge_weight": 1318.6
+  },
+  "memberships": {
+    "user_0b19a8f332491cf560a1": "C001",
+    "user_0be0607c4e7d3c7abd0d": "C002",
+    "user_0d021634997417481f65": "C003",
+    "user_1b9272aa7060004bf1dc": "C003",
+    "user_1c0d9e2bd26b8bc130cc": "C003",
+    "user_22a11147bde8e2223b98": "C001",
+    "user_331c26fd20374f416122": "C001",
+    "user_43bdc0ab270c0c84c46e": "C001",
+    "user_4934577aa7de9fa3772e": "C001",
+    "user_4a7d1e4896ab3ed11730": "C004",
+    "user_5db5298d7d6b1493c094": "C003",
+    "user_5e5d7016aa3d1626fb8c": "C004",
+    "user_626455e4c9c1fa579feb": "C004",
+    "user_65ee0a6a56ce3147cdab": "C002",
+    "user_66ea614ae4fdfaa2aa56": "C001",
+    "user_6acb0b57860c9b6bfcfe": "C004",
+    "user_6de4e93a17c5de7f26bb": "C003",
+    "user_6f480ab13c241b52d421": "C001",
+    "user_7687b8ef307cb3115d27": "C004",
+    "user_7813c7f2652403339e7e": "C001",
+    "user_78367a86e32f11c487be": "C002",
+    "user_79151e1a0b4b131695b2": "C002",
+    "user_793a2bc8ab69d702428a": "C004",
+    "user_7be7d65145ee7e5f3d34": "C002",
+    "user_7ea99d0709140661be73": "C004",
+    "user_87d93d5bb32061da0a01": "C001",
+    "user_90b3ddeb6aba992f319c": "C002",
+    "user_97c538175cf0d5489774": "C002",
+    "user_99a40c0f182bd7a32bb1": "C004",
+    "user_abdb28a91775902962f3": "C004",
+    "user_ac46dda3ac06e1c5b036": "C001",
+    "user_ae15b8789855b63f3bff": "C003",
+    "user_b5362d4c51c977d07c3e": "C002",
+    "user_b6e549a11dcbd3ec3446": "C003",
+    "user_c231eca6e1521dcc463a": "C002",
+    "user_cedeaa7cab7ac84ab98f": "C003",
+    "user_d4cb44d5d58c095766c0": "C003",
+    "user_d71efa2277a597dba8a7": "C002",
+    "user_e323abf0bfc99b6218ec": "C004",
+    "user_e3df8868c30841b452b9": "C003",
+    "user_e9ba62bc454f9647bd76": "C002",
+    "user_ed498b538c47bb965d29": "C002",
+    "user_ed5a1b44e0f7669f0acb": "C003",
+    "user_ee221975f66ca2bc027f": "C001",
+    "user_eff6324cb2475dfb4eef": "C004",
+    "user_f6301f4b893acfe1ae31": "C004",
+    "user_f9ac156a50a1946d9ab1": "C001",
+    "user_fda27538279443f25f76": "C003"
+  },
+  "communities": [
+    {
+      "community_id": "C001",
+      "size": 12,
+      "subreddits": {
+        "MachineLearning": 67
+      }
+    },
+    {
+      "community_id": "C002",
+      "size": 12,
+      "subreddits": {
+        "learnprogramming": 66,
+        "cybersecurity": 1
+      }
+    },
+    {
+      "community_id": "C003",
+      "size": 12,
+      "subreddits": {
+        "datascience": 67,
+        "MachineLearning": 1
+      }
+    },
+    {
+      "community_id": "C004",
+      "size": 12,
+      "subreddits": {
+        "cybersecurity": 67,
+        "datascience": 1
+      }
+    }
+  ],
+  "metrics": {
+    "nodes": 48,
+    "edges": 267,
+    "communities": 4,
+    "modularity": 0.7495420904866513,
+    "intra_community_edge_fraction": 0.9887640449438202,
+    "minimum_community_size": 12,
+    "median_community_size": 12.0,
+    "maximum_community_size": 12,
+    "community_sizes": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "runtime_seconds": 0.010122400000000198
+  },
+  "stability": {
+    "seeds": [
+      42,
+      7,
+      21
+    ],
+    "comparisons": [
+      {
+        "seed_a": 42,
+        "seed_b": 7,
+        "adjusted_rand_index": 1.0
+      },
+      {
+        "seed_a": 42,
+        "seed_b": 21,
+        "adjusted_rand_index": 1.0
+      },
+      {
+        "seed_a": 7,
+        "seed_b": 21,
+        "adjusted_rand_index": 1.0
+      }
+    ],
+    "mean_ari": 1.0
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "user_0b19a8f332491cf560a1",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.055113519212621545,
+        "y": -0.62
+      },
+      {
+        "id": "user_0be0607c4e7d3c7abd0d",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.6751135192126215,
+        "y": 0.0
+      },
+      {
+        "id": "user_0d021634997417481f65",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.055113519212621545,
+        "y": 0.62
+      },
+      {
+        "id": "user_1b9272aa7060004bf1dc",
+        "community_id": "C003",
+        "degree": 11,
+        "x": -0.07038880207988799,
+        "y": 0.6844819086392326
+      },
+      {
+        "id": "user_1c0d9e2bd26b8bc130cc",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.010774134345086112,
+        "y": 0.49723429620160997
+      },
+      {
+        "id": "user_22a11147bde8e2223b98",
+        "community_id": "C001",
+        "degree": 11,
+        "x": -0.07038880207988799,
+        "y": -0.5555180913607674
+      },
+      {
+        "id": "user_331c26fd20374f416122",
+        "community_id": "C001",
+        "degree": 12,
+        "x": 0.010774134345086112,
+        "y": -0.74276570379839
+      },
+      {
+        "id": "user_43bdc0ab270c0c84c46e",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.08872052599886938,
+        "y": -0.5042797845383792
+      },
+      {
+        "id": "user_4934577aa7de9fa3772e",
+        "community_id": "C001",
+        "degree": 11,
+        "x": -0.16281307677557805,
+        "y": -0.6487993408061662
+      },
+      {
+        "id": "user_4a7d1e4896ab3ed11730",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.5648864807873785,
+        "y": 7.59281015471359e-17
+      },
+      {
+        "id": "user_5db5298d7d6b1493c094",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.08872052599886938,
+        "y": 0.7357202154616208
+      },
+      {
+        "id": "user_5e5d7016aa3d1626fb8c",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.6903888020798881,
+        "y": 0.06448190863923277
+      },
+      {
+        "id": "user_626455e4c9c1fa579feb",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.6092258656549139,
+        "y": -0.12276570379838997
+      },
+      {
+        "id": "user_65ee0a6a56ce3147cdab",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.5496111979201119,
+        "y": 0.0644819086392327
+      },
+      {
+        "id": "user_66ea614ae4fdfaa2aa56",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.15423075943134404,
+        "y": -0.7181089845285888
+      },
+      {
+        "id": "user_6acb0b57860c9b6bfcfe",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.5312794740011306,
+        "y": 0.11572021546162091
+      },
+      {
+        "id": "user_6de4e93a17c5de7f26bb",
+        "community_id": "C003",
+        "degree": 11,
+        "x": -0.16281307677557805,
+        "y": 0.5912006591938338
+      },
+      {
+        "id": "user_6f480ab13c241b52d421",
+        "community_id": "C001",
+        "degree": 11,
+        "x": -0.051587170667082176,
+        "y": -0.4280982964573651
+      },
+      {
+        "id": "user_7687b8ef307cb3115d27",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.7828130767755781,
+        "y": -0.028799340806166154
+      },
+      {
+        "id": "user_7813c7f2652403339e7e",
+        "community_id": "C001",
+        "degree": 11,
+        "x": -0.09838232916743962,
+        "y": -0.8094291881088803
+      },
+      {
+        "id": "user_78367a86e32f11c487be",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.6307741343450861,
+        "y": -0.12276570379839004
+      },
+      {
+        "id": "user_79151e1a0b4b131695b2",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.7087205259988694,
+        "y": 0.11572021546162084
+      },
+      {
+        "id": "user_793a2bc8ab69d702428a",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.465769240568656,
+        "y": -0.09810898452858882
+      },
+      {
+        "id": "user_7be7d65145ee7e5f3d34",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.4571869232244219,
+        "y": -0.02879934080616623
+      },
+      {
+        "id": "user_7ea99d0709140661be73",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.6715871706670822,
+        "y": 0.191901703542635
+      },
+      {
+        "id": "user_87d93d5bb32061da0a01",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.2134503015960173,
+        "y": -0.542048292202356
+      },
+      {
+        "id": "user_90b3ddeb6aba992f319c",
+        "community_id": "C002",
+        "degree": 12,
+        "x": 0.774230759431344,
+        "y": -0.09810898452858889
+      },
+      {
+        "id": "user_97c538175cf0d5489774",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.5684128293329178,
+        "y": 0.19190170354263492
+      },
+      {
+        "id": "user_99a40c0f182bd7a32bb1",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.7183823291674396,
+        "y": -0.18942918810888024
+      },
+      {
+        "id": "user_abdb28a91775902962f3",
+        "community_id": "C004",
+        "degree": 13,
+        "x": -0.4065496984039827,
+        "y": 0.07795170779764417
+      },
+      {
+        "id": "user_ac46dda3ac06e1c5b036",
+        "community_id": "C001",
+        "degree": 11,
+        "x": -0.2220594712830167,
+        "y": -0.5283370783058543
+      },
+      {
+        "id": "user_ae15b8789855b63f3bff",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.15423075943134404,
+        "y": 0.5218910154714111
+      },
+      {
+        "id": "user_b5362d4c51c977d07c3e",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.5216176708325604,
+        "y": -0.18942918810888032
+      },
+      {
+        "id": "user_b6e549a11dcbd3ec3446",
+        "community_id": "C003",
+        "degree": 11,
+        "x": -0.051587170667082176,
+        "y": 0.8119017035426349
+      },
+      {
+        "id": "user_c231eca6e1521dcc463a",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.8334503015960173,
+        "y": 0.0779517077976441
+      },
+      {
+        "id": "user_cedeaa7cab7ac84ab98f",
+        "community_id": "C003",
+        "degree": 13,
+        "x": -0.09838232916743962,
+        "y": 0.4305708118911197
+      },
+      {
+        "id": "user_d4cb44d5d58c095766c0",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.2134503015960173,
+        "y": 0.697951707797644
+      },
+      {
+        "id": "user_d71efa2277a597dba8a7",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.39794052871698327,
+        "y": 0.09166292169414565
+      },
+      {
+        "id": "user_e323abf0bfc99b6218ec",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.8420594712830167,
+        "y": 0.09166292169414572
+      },
+      {
+        "id": "user_e3df8868c30841b452b9",
+        "community_id": "C003",
+        "degree": 11,
+        "x": -0.2220594712830167,
+        "y": 0.7116629216941457
+      },
+      {
+        "id": "user_e9ba62bc454f9647bd76",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.727047338630225,
+        "y": -0.22875394486693768
+      },
+      {
+        "id": "user_ed498b538c47bb965d29",
+        "community_id": "C002",
+        "degree": 11,
+        "x": 0.699105260361499,
+        "y": 0.25220003525602347
+      },
+      {
+        "id": "user_ed5a1b44e0f7669f0acb",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.10704733863022499,
+        "y": 0.3912460551330623
+      },
+      {
+        "id": "user_ee221975f66ca2bc027f",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.10704733863022499,
+        "y": -0.8487539448669377
+      },
+      {
+        "id": "user_eff6324cb2475dfb4eef",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.512952661369775,
+        "y": -0.2287539448669376
+      },
+      {
+        "id": "user_f6301f4b893acfe1ae31",
+        "community_id": "C004",
+        "degree": 11,
+        "x": -0.540894739638501,
+        "y": 0.2522000352560235
+      },
+      {
+        "id": "user_f9ac156a50a1946d9ab1",
+        "community_id": "C001",
+        "degree": 11,
+        "x": 0.07910526036149904,
+        "y": -0.3677999647439765
+      },
+      {
+        "id": "user_fda27538279443f25f76",
+        "community_id": "C003",
+        "degree": 11,
+        "x": 0.07910526036149904,
+        "y": 0.8722000352560235
+      }
+    ],
+    "edges": [
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_22a11147bde8e2223b98",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_331c26fd20374f416122",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_43bdc0ab270c0c84c46e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_4934577aa7de9fa3772e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_66ea614ae4fdfaa2aa56",
+        "weight": 6.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 7.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0b19a8f332491cf560a1",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_65ee0a6a56ce3147cdab",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_78367a86e32f11c487be",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_79151e1a0b4b131695b2",
+        "weight": 6.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_7be7d65145ee7e5f3d34",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_90b3ddeb6aba992f319c",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 6.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0be0607c4e7d3c7abd0d",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_1b9272aa7060004bf1dc",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_1c0d9e2bd26b8bc130cc",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_5db5298d7d6b1493c094",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_6de4e93a17c5de7f26bb",
+        "weight": 3.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_ae15b8789855b63f3bff",
+        "weight": 4.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 7.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 7.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 5.0
+      },
+      {
+        "source": "user_0d021634997417481f65",
+        "target": "user_fda27538279443f25f76",
+        "weight": 6.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_1c0d9e2bd26b8bc130cc",
+        "weight": 4.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_5db5298d7d6b1493c094",
+        "weight": 7.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_6de4e93a17c5de7f26bb",
+        "weight": 4.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_ae15b8789855b63f3bff",
+        "weight": 7.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 5.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 6.0
+      },
+      {
+        "source": "user_1b9272aa7060004bf1dc",
+        "target": "user_fda27538279443f25f76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_5db5298d7d6b1493c094",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_6de4e93a17c5de7f26bb",
+        "weight": 4.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_ae15b8789855b63f3bff",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 4.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 4.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 6.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 3.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 6.0
+      },
+      {
+        "source": "user_1c0d9e2bd26b8bc130cc",
+        "target": "user_fda27538279443f25f76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_331c26fd20374f416122",
+        "weight": 3.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_43bdc0ab270c0c84c46e",
+        "weight": 7.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_4934577aa7de9fa3772e",
+        "weight": 3.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_66ea614ae4fdfaa2aa56",
+        "weight": 4.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 7.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 5.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 3.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 7.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 3.0
+      },
+      {
+        "source": "user_22a11147bde8e2223b98",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_43bdc0ab270c0c84c46e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_4934577aa7de9fa3772e",
+        "weight": 7.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_66ea614ae4fdfaa2aa56",
+        "weight": 4.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 7.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 5.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 3.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 6.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 0.2
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 3.0
+      },
+      {
+        "source": "user_331c26fd20374f416122",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_4934577aa7de9fa3772e",
+        "weight": 6.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_66ea614ae4fdfaa2aa56",
+        "weight": 3.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 6.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 7.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 5.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 4.0
+      },
+      {
+        "source": "user_43bdc0ab270c0c84c46e",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 5.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_66ea614ae4fdfaa2aa56",
+        "weight": 4.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 7.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 5.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 3.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 6.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 7.0
+      },
+      {
+        "source": "user_4934577aa7de9fa3772e",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_5e5d7016aa3d1626fb8c",
+        "weight": 4.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_626455e4c9c1fa579feb",
+        "weight": 7.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_6acb0b57860c9b6bfcfe",
+        "weight": 5.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_7687b8ef307cb3115d27",
+        "weight": 5.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_793a2bc8ab69d702428a",
+        "weight": 4.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 3.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 3.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 3.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 7.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 3.0
+      },
+      {
+        "source": "user_4a7d1e4896ab3ed11730",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 6.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_6de4e93a17c5de7f26bb",
+        "weight": 3.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_ae15b8789855b63f3bff",
+        "weight": 6.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 7.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5db5298d7d6b1493c094",
+        "target": "user_fda27538279443f25f76",
+        "weight": 6.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_626455e4c9c1fa579feb",
+        "weight": 4.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_6acb0b57860c9b6bfcfe",
+        "weight": 7.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_7687b8ef307cb3115d27",
+        "weight": 4.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_793a2bc8ab69d702428a",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 4.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 5.0
+      },
+      {
+        "source": "user_5e5d7016aa3d1626fb8c",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 7.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_6acb0b57860c9b6bfcfe",
+        "weight": 6.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_7687b8ef307cb3115d27",
+        "weight": 5.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_793a2bc8ab69d702428a",
+        "weight": 4.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 6.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 3.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 6.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 7.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 3.0
+      },
+      {
+        "source": "user_626455e4c9c1fa579feb",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 6.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_78367a86e32f11c487be",
+        "weight": 5.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_79151e1a0b4b131695b2",
+        "weight": 3.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_7be7d65145ee7e5f3d34",
+        "weight": 5.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_90b3ddeb6aba992f319c",
+        "weight": 6.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 6.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 6.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 3.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 6.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 5.0
+      },
+      {
+        "source": "user_65ee0a6a56ce3147cdab",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 6.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_6f480ab13c241b52d421",
+        "weight": 6.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 7.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 3.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 4.0
+      },
+      {
+        "source": "user_66ea614ae4fdfaa2aa56",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 5.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_7687b8ef307cb3115d27",
+        "weight": 3.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_793a2bc8ab69d702428a",
+        "weight": 7.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 7.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 7.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 5.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 6.0
+      },
+      {
+        "source": "user_6acb0b57860c9b6bfcfe",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 4.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_ae15b8789855b63f3bff",
+        "weight": 3.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 4.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 4.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 6.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 4.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 6.0
+      },
+      {
+        "source": "user_6de4e93a17c5de7f26bb",
+        "target": "user_fda27538279443f25f76",
+        "weight": 3.0
+      },
+      {
+        "source": "user_6f480ab13c241b52d421",
+        "target": "user_7813c7f2652403339e7e",
+        "weight": 4.0
+      },
+      {
+        "source": "user_6f480ab13c241b52d421",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 3.0
+      },
+      {
+        "source": "user_6f480ab13c241b52d421",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 6.0
+      },
+      {
+        "source": "user_6f480ab13c241b52d421",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 7.0
+      },
+      {
+        "source": "user_6f480ab13c241b52d421",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_793a2bc8ab69d702428a",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 7.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 3.0
+      },
+      {
+        "source": "user_7687b8ef307cb3115d27",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7813c7f2652403339e7e",
+        "target": "user_87d93d5bb32061da0a01",
+        "weight": 5.0
+      },
+      {
+        "source": "user_7813c7f2652403339e7e",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7813c7f2652403339e7e",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 5.0
+      },
+      {
+        "source": "user_7813c7f2652403339e7e",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 3.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_79151e1a0b4b131695b2",
+        "weight": 7.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_7be7d65145ee7e5f3d34",
+        "weight": 3.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_90b3ddeb6aba992f319c",
+        "weight": 7.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 7.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 5.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 7.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 4.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 6.0
+      },
+      {
+        "source": "user_78367a86e32f11c487be",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 4.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_7be7d65145ee7e5f3d34",
+        "weight": 7.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_90b3ddeb6aba992f319c",
+        "weight": 3.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 3.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 3.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 5.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 7.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_79151e1a0b4b131695b2",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 3.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_7ea99d0709140661be73",
+        "weight": 5.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 5.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 5.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 3.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 4.0
+      },
+      {
+        "source": "user_793a2bc8ab69d702428a",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 7.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_90b3ddeb6aba992f319c",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 5.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 6.0
+      },
+      {
+        "source": "user_7be7d65145ee7e5f3d34",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7ea99d0709140661be73",
+        "target": "user_99a40c0f182bd7a32bb1",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7ea99d0709140661be73",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 5.0
+      },
+      {
+        "source": "user_7ea99d0709140661be73",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 3.0
+      },
+      {
+        "source": "user_7ea99d0709140661be73",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 4.0
+      },
+      {
+        "source": "user_7ea99d0709140661be73",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 7.0
+      },
+      {
+        "source": "user_87d93d5bb32061da0a01",
+        "target": "user_ac46dda3ac06e1c5b036",
+        "weight": 7.0
+      },
+      {
+        "source": "user_87d93d5bb32061da0a01",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 3.0
+      },
+      {
+        "source": "user_87d93d5bb32061da0a01",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 7.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_97c538175cf0d5489774",
+        "weight": 6.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 0.2
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 6.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 3.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 5.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_90b3ddeb6aba992f319c",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 5.0
+      },
+      {
+        "source": "user_97c538175cf0d5489774",
+        "target": "user_b5362d4c51c977d07c3e",
+        "weight": 6.0
+      },
+      {
+        "source": "user_97c538175cf0d5489774",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 3.0
+      },
+      {
+        "source": "user_97c538175cf0d5489774",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 5.0
+      },
+      {
+        "source": "user_97c538175cf0d5489774",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_97c538175cf0d5489774",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 5.0
+      },
+      {
+        "source": "user_99a40c0f182bd7a32bb1",
+        "target": "user_abdb28a91775902962f3",
+        "weight": 4.0
+      },
+      {
+        "source": "user_99a40c0f182bd7a32bb1",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 3.0
+      },
+      {
+        "source": "user_99a40c0f182bd7a32bb1",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 4.0
+      },
+      {
+        "source": "user_99a40c0f182bd7a32bb1",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 7.0
+      },
+      {
+        "source": "user_abdb28a91775902962f3",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 0.2
+      },
+      {
+        "source": "user_abdb28a91775902962f3",
+        "target": "user_e323abf0bfc99b6218ec",
+        "weight": 3.0
+      },
+      {
+        "source": "user_abdb28a91775902962f3",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 4.0
+      },
+      {
+        "source": "user_abdb28a91775902962f3",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 7.0
+      },
+      {
+        "source": "user_ac46dda3ac06e1c5b036",
+        "target": "user_ee221975f66ca2bc027f",
+        "weight": 6.0
+      },
+      {
+        "source": "user_ac46dda3ac06e1c5b036",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 5.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_b6e549a11dcbd3ec3446",
+        "weight": 7.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 7.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 4.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 7.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 5.0
+      },
+      {
+        "source": "user_ae15b8789855b63f3bff",
+        "target": "user_fda27538279443f25f76",
+        "weight": 6.0
+      },
+      {
+        "source": "user_b5362d4c51c977d07c3e",
+        "target": "user_c231eca6e1521dcc463a",
+        "weight": 3.0
+      },
+      {
+        "source": "user_b5362d4c51c977d07c3e",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 5.0
+      },
+      {
+        "source": "user_b5362d4c51c977d07c3e",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_b5362d4c51c977d07c3e",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 6.0
+      },
+      {
+        "source": "user_b6e549a11dcbd3ec3446",
+        "target": "user_cedeaa7cab7ac84ab98f",
+        "weight": 4.0
+      },
+      {
+        "source": "user_b6e549a11dcbd3ec3446",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 6.0
+      },
+      {
+        "source": "user_b6e549a11dcbd3ec3446",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 3.0
+      },
+      {
+        "source": "user_b6e549a11dcbd3ec3446",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 6.0
+      },
+      {
+        "source": "user_b6e549a11dcbd3ec3446",
+        "target": "user_fda27538279443f25f76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_c231eca6e1521dcc463a",
+        "target": "user_d71efa2277a597dba8a7",
+        "weight": 7.0
+      },
+      {
+        "source": "user_c231eca6e1521dcc463a",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 4.0
+      },
+      {
+        "source": "user_c231eca6e1521dcc463a",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 7.0
+      },
+      {
+        "source": "user_cedeaa7cab7ac84ab98f",
+        "target": "user_d4cb44d5d58c095766c0",
+        "weight": 6.0
+      },
+      {
+        "source": "user_cedeaa7cab7ac84ab98f",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 3.0
+      },
+      {
+        "source": "user_cedeaa7cab7ac84ab98f",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 6.0
+      },
+      {
+        "source": "user_cedeaa7cab7ac84ab98f",
+        "target": "user_fda27538279443f25f76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_d4cb44d5d58c095766c0",
+        "target": "user_e3df8868c30841b452b9",
+        "weight": 5.0
+      },
+      {
+        "source": "user_d4cb44d5d58c095766c0",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 3.0
+      },
+      {
+        "source": "user_d4cb44d5d58c095766c0",
+        "target": "user_fda27538279443f25f76",
+        "weight": 4.0
+      },
+      {
+        "source": "user_d71efa2277a597dba8a7",
+        "target": "user_e9ba62bc454f9647bd76",
+        "weight": 4.0
+      },
+      {
+        "source": "user_d71efa2277a597dba8a7",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 5.0
+      },
+      {
+        "source": "user_e323abf0bfc99b6218ec",
+        "target": "user_eff6324cb2475dfb4eef",
+        "weight": 3.0
+      },
+      {
+        "source": "user_e323abf0bfc99b6218ec",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 5.0
+      },
+      {
+        "source": "user_e3df8868c30841b452b9",
+        "target": "user_ed5a1b44e0f7669f0acb",
+        "weight": 5.0
+      },
+      {
+        "source": "user_e3df8868c30841b452b9",
+        "target": "user_fda27538279443f25f76",
+        "weight": 7.0
+      },
+      {
+        "source": "user_e9ba62bc454f9647bd76",
+        "target": "user_ed498b538c47bb965d29",
+        "weight": 7.0
+      },
+      {
+        "source": "user_ed5a1b44e0f7669f0acb",
+        "target": "user_fda27538279443f25f76",
+        "weight": 4.0
+      },
+      {
+        "source": "user_ee221975f66ca2bc027f",
+        "target": "user_f9ac156a50a1946d9ab1",
+        "weight": 6.0
+      },
+      {
+        "source": "user_eff6324cb2475dfb4eef",
+        "target": "user_f6301f4b893acfe1ae31",
+        "weight": 6.0
+      }
+    ],
+    "truncated": false
+  },
+  "provenance": {
+    "dataset_sha256": "2f4c6948528f6cdbac1546025b5f8c758111733026cea766ee3caa2197be3926",
+    "membership_sha256": "14c60a5c0f2e2a41f9bee0c94221efd05a2aeb4b996ec00df86d9f717f012904",
+    "created_at": "2026-10-13T21:27:42.670921Z",
+    "python_version": "3.12.10",
+    "networkx_version": "3.7",
+    "application_version": "1.0.0",
+    "algorithm": "networkx.asyn_lpa_communities",
+    "identifier_policy": "dataset-scoped SHA-256 pseudonyms",
+    "input_columns": [
+      "source_user",
+      "target_user",
+      "interaction_type",
+      "timestamp",
+      "subreddit",
+      "interaction_id",
+      "weight",
+      "post_id",
+      "text"
+    ],
+    "column_mapping": {},
+    "preprocessing_policy": "trim IDs; UTC; event dedup; drop loops; sum pairs; keep isolates"
+  },
+  "warnings": []
+}

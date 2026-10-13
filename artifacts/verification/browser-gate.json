@@ -1,0 +1,49 @@
+{
+  "gate": "real browser",
+  "passed": true,
+  "viewport_checks": [
+    "1440x1000",
+    "390x844"
+  ],
+  "sample_metrics": {
+    "nodes": 48,
+    "edges": 267,
+    "communities": 4,
+    "modularity": 0.7495420904866513,
+    "intra_community_edge_fraction": 0.9887640449438202,
+    "minimum_community_size": 12,
+    "median_community_size": 12.0,
+    "maximum_community_size": 12,
+    "community_sizes": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "runtime_seconds": 0.023104000000785163
+  },
+  "large_graph": {
+    "total_nodes": 1000,
+    "visible_nodes": 400,
+    "visible_edges": 1379,
+    "community_selection_cli_wall_seconds": 2.0169915999995283,
+    "timing_note": "includes CLI startup and snapshots, not pure render time"
+  },
+  "checks": [
+    "sample validation",
+    "configuration",
+    "graph preview",
+    "real LPA",
+    "community selection",
+    "empty filter + visible edge count",
+    "evaluation",
+    "three downloads + roundtrip",
+    "mobile layout",
+    "invalid input recovery",
+    "previous dataset label preserved",
+    "mapped upload",
+    "browser console",
+    "reduced-motion accessibility",
+    "benchmark upload + bounded graph interaction"
+  ]
+}

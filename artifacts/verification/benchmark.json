@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-13T21:27:50.386171+00:00",
+  "synthetic": true,
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-1215U",
+    "logical_cpus": 8,
+    "networkx": "3.7"
+  },
+  "dataset": {
+    "input_rows": 10000,
+    "bytes": 1036972,
+    "sha256": "fea34f9d3a7cdd85d35595edc87753d94c8b3c07389df06de35078b96fa4fb39",
+    "generator_seed": 2026
+  },
+  "metrics": {
+    "nodes": 1000,
+    "edges": 9093,
+    "communities": 10,
+    "modularity": 0.8999710335998831,
+    "intra_community_edge_fraction": 1.0,
+    "minimum_community_size": 100,
+    "median_community_size": 100.0,
+    "maximum_community_size": 100,
+    "community_sizes": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "runtime_seconds": 2.6978877000001376
+  },
+  "total_wall_seconds": 3.198873100000128,
+  "peak_python_allocated_mib": 15.73591423034668,
+  "memory_note": "tracemalloc Python allocations; not process RSS or native NumPy memory",
+  "target_seconds": 60,
+  "passed": true,
+  "membership_repeatable": true,
+  "sample_metrics": {
+    "nodes": 48,
+    "edges": 267,
+    "communities": 4,
+    "modularity": 0.7495420904866513,
+    "intra_community_edge_fraction": 0.9887640449438202,
+    "minimum_community_size": 12,
+    "median_community_size": 12.0,
+    "maximum_community_size": 12,
+    "community_sizes": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "runtime_seconds": 0.010122400000000198
+  },
+  "configuration": {
+    "seed": 42,
+    "weighted": true,
+    "minimum_weight": 0.1,
+    "start_time": null,
+    "end_time": null,
+    "interaction_types": [
+      "reply",
+      "mention",
+      "shared_discussion"
+    ],
+    "subreddits": [],
+    "largest_component_only": false,
+    "stability_seeds": [
+      42,
+      7,
+      21
+    ]
+  }
+}

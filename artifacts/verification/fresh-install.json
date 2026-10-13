@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "recorded_at": "2026-10-13T21:31:12.284732+00:00",
+  "workspace": ".release-check\\install-ii6ngbz5",
+  "checks": [
+    "new Python venv from uv.lock",
+    "complete pytest suite",
+    "new Node install from package-lock",
+    "typed production build",
+    "frontend workflow tests",
+    "native production HTTP worker + exports"
+  ]
+}

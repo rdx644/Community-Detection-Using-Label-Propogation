@@ -1,0 +1,14 @@
+requirement,implementation,tests,evidence
+R01,ingestion.py;api.py;App.tsx,test_contracts.py;test_data.py;test_api.py;App.test.tsx,phase_gates.md;browser-gate.json
+R02,validation.py;ingestion.py,test_data.py,phase_gates.md
+R03,preprocessing.py;graph_builder.py,test_data.py;test_engine.py,phase_gates.md
+R04,schemas.py;graph_builder.py;App.tsx,test_contracts.py;test_data.py;browser_gate.py,browser-gate.json
+R05,lpa_engine.py;worker.py,test_engine.py;test_pipeline.py;test_api.py,phase_gates.md
+R06,evaluation.py;stability.py;topic_analysis.py,test_engine.py;test_regressions.py;test_pipeline.py,benchmark.json;sample/result.json
+R07,analysis.py;NetworkGraph.tsx;graphFilters.ts,test_engine.py;graphFilters.test.ts;browser_gate.py,browser-gate.json;docs/images/explorer-desktop.png
+R08,exports.py;api.py;App.tsx,test_pipeline.py;test_api.py;browser_gate.py,production-smoke.json;browser-gate.json
+R09,provenance.py;schemas.py,test_pipeline.py;test_contract_drift.py;benchmark.py,sample/result.json;benchmark.json
+R10,config.py;body_budget.py;service.py;worker.py,test_api.py;test_reliability.py;test_pipeline.py,phase_gates.md
+R11,provenance.py;service.py;api.py,test_reliability.py;test_api.py,secret-scan.json;deployment.md
+R12,tests;ci.yml;scan_secrets.py,test suites;ruff;mypy;eslint;vitest;browser_gate.py,phase_gates.md;quality-gates.json
+R13,uv.lock;package-lock.json;Dockerfile;docs;ci.yml,fresh_install.py;smoke_test.py;benchmark.py,fresh-install.json;production-smoke.json;benchmark.json
